@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VF</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <main>
+        <div class="section">
+            <div class="title">Calculadora VF</div>
+
+            <div class="input">
+              <input placeholder="Digite o nome." type="text" id="nome" required="required">
+            </div>
+
+            <div class="input">
+                <input placeholder="Digite o valor aplicado mensalmente." type="number" id='mensal' required="required">
+           </div>
+   
+           <div class="input">
+             <input placeholder="Digite o valor da taxa." type="number" id='taxa' required="required" >
+         </div>
+   
+           <div class="input">
+               <input  placeholder="Digite o número de parcelas."  type="number" id='parcelas' required="required">
+           </div>
+                        
+           <button id='calcular'>Calcular</button>
+   
+           <div class="result" id='resultado'></div>           
+       </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
